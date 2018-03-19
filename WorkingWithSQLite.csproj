@@ -61,7 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LiteBase.cs" />
-    <Compile Include="LiteBaseForLINQ.cs" />
+    <Compile Include="SQLite\LiteBase.cs" />
+    <Compile Include="SQLite\LiteBaseForLINQ.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

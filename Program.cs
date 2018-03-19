@@ -16,10 +16,10 @@ namespace WorkingWithSQLite
     {
         static void Main(string[] args)
         {
-            var lbase = new LiteBase(@"F:\project\WorkingWithSQLite\WorkingWithSQLite\DB\db1.3bd");
-            var lbaseLinq = new LiteBaseForLINQ(@"F:\project\WorkingWithSQLite\WorkingWithSQLite\DB\db1.3bd");
-            string str = "";
-            lbaseLinq.Craete();
+           // var lbase = new LiteBase(@"F:\project\WorkingWithSQLite\WorkingWithSQLite\DB\db1.db3");
+           // var lbaseLinq = new LiteBaseForLINQ(@"F:\project\WorkingWithSQLite\WorkingWithSQLite\DB\db1.db3");
+            //string str = "";
+            //lbaseLinq.Craete();
             //lbase.Craete();
             //lbase.Insert();
             //lbase.Select();
@@ -29,7 +29,11 @@ namespace WorkingWithSQLite
             //    vr.ExecuteNonQuery()
             //}
             //Console.WriteLine(Convert.ToInt64(Guid.NewGuid().ToByteArray()));
-            
+            string date = @"01/31/18 02:08 PM";
+            //Console.WriteLine(DateTime.Parse(;
+            //Console.WriteLine(DateTime.Now.ToString(@"MM/dd/yy hh:mm tt"));
+            Console.WriteLine(DateTime.ParseExact(@"01/31/18 02:08 PM", @"MM/dd/yy hh:mm tt", System.Globalization.CultureInfo.InvariantCulture));
+            Console.ReadLine();
         }
 
 
