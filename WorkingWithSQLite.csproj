@@ -60,7 +60,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LiteBase.cs" />
     <Compile Include="SQLite\LiteBase.cs" />
     <Compile Include="SQLite\LiteBaseForLINQ.cs" />
     <Compile Include="Program.cs" />
